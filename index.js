@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   console.log('this is working');
   res.send("It's Working")
 })
+
 // GET API 
 app.get("/a", (req, res) => {
   console.log('this is working aaaaaaaaaa');
