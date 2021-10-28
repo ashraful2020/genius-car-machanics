@@ -14,6 +14,11 @@ app.get("/", (req, res) => {
   console.log('this is working');
   res.send("It's Working")
 })
+// GET API 
+app.get("/a", (req, res) => {
+  console.log('this is working aaaaaaaaaa');
+  res.send("It's Working  AAAAAAAAAAAA")
+})
 
 const uri = "mongodb+srv://geniusMechanic:uk1t58wFkWY2Lo8h@cluster0.wijwg.mongodb.net/Database?retryWrites=true&w=majority";
 
